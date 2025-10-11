@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+body{
+  font-family: "Pixelify Sans";
+  display: flex;
+  background-color: #2e3440;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .root-container {
+        display:          flex;
+        flex-direction:   row;
+        justify-content:  center;
+  }
+
+  .info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .teamslinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  a{
+    margin-left: 5px;
+  }
+
+  .mybutton{
+    margin-top: 283px;
+  }
+
+  .pages{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px
+  }
+
+  .pageslinks{
+         margin: 5px;
+  }
+  
+  .avatarmini{
+  max-width: 200px;
+  max-height: 200px;
+  height: auto;
+  width: auto;
+  }
+
+  .avatar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 204px;
+    margin-right: 10px;
+  }
+
+  .interests{
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .root-container {
+        display:          flex;
+        flex-direction:   column;
+        justify-content:  center;
+  }
+
+  .mybutton{
+        margin-top: 10px;
+  }
+
+    .pagebutton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+  }    
+
+    .pageslinks{
+        margin-top: 15px;
+        margin-left: 10px;
+  }
+
+  .avatarmini{
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+  }
+
+  .avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  a{
+    margin-left: 10px;
+  }
+}
+
+.info{
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+p {
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.avatarmini{
+  margin-top: 10px;
+  border-radius: 10px; 
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a{
+  color: ghostwhite;
+}
+
+h1{
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+}
+
+.pages{
+    margin-top: 10px;
+    background-color: #3b4252;
+    border: 2px #434c5e solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.pageslinks{
+    color:ghostwhite;
+    display: flex;
+    justify-content: center;
+}
+
+.mybutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.interests{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.intereststext{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 400px;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
