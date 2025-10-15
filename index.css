@@ -153,6 +153,11 @@ p {
   flex-direction: row;
   -webkit-justify-content: center;
   justify-content: center;
+}
+
+.button{
+  height: 35px;
+  width: 88px;
   margin-left: 3px;
 }
 
