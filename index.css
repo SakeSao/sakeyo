@@ -21,13 +21,17 @@ body{
         margin-left: 10px;
     }
 
+    .News{
+        margin-left: 10px;
+    }
+
     .infotext{
         margin-left: 10px;
         margin-right: 10px;
     }
 
     .mybutton{
-    margin-top: 283px;
+    margin-top: 420px;
     }
 
     .pages{
@@ -81,6 +85,21 @@ body{
     margin-top: 10px;
     display: grid;
     justify-content: center;
+    background-color: #3b4252;
+    border: 2px #434c5e solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+.News{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
     background-color: #3b4252;
     border: 2px #434c5e solid;
     border-radius: 10px;
@@ -185,4 +204,46 @@ p {
     color:ghostwhite;
     display: flex;
     justify-content: center;
+}
+
+.NewsText{
+    margin: 10px;
+}
+
+.cover{
+    border: 2px #434c5e solid;
+    border-radius: 10px;
+    margin: 10px;
+    max-height: 200px;
+    height: auto;
+}
+
+.coverFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.infoLastFmFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lastfmText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: ghostwhite;
+}
+
+.artist{
+    color: ghostwhite;
+}
+
+.status{
+    color: ghostwhite;
 }
