@@ -141,8 +141,8 @@ img {
     border-radius: 10px; 
     border: 2px #434c5e solid;
     border-radius: 10px;
-    max-width: 40%;
-    max-height: 40%;
+    max-width: 300px;
+    max-height: 300px;
     height: auto;
     width: auto;
 }
@@ -246,4 +246,8 @@ p {
 
 .status{
     color: ghostwhite;
+}
+
+h1{
+    margin: 10px;
 }
