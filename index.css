@@ -34,11 +34,6 @@ body{
     margin-top: 420px;
     }
 
-    .pages{
-    display: flex;
-    flex-direction: column
-    }
-
     .pageslinks{
          margin: 5px;
     }
@@ -189,6 +184,9 @@ p {
 }
 
 .pages{
+    
+    display: flex;
+    flex-direction: column;
     margin-top: 10px;
     background-color: #3b4252;
     border: 2px #434c5e solid;
