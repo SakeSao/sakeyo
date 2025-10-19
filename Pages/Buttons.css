@@ -210,3 +210,10 @@ h1 {
     height: 20px;
     width: 150px;
 }
+
+.ImgaesColoumn{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
