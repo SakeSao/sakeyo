@@ -26,7 +26,7 @@ body{
   }
 
   .mybutton{
-    margin-top: 283px;
+    margin-top: 450%;
   }
 
   .Projects{
@@ -44,7 +44,7 @@ body{
   }
 
   .mybutton{
-        margin-top: 10px;
+    margin-top: 10px;
   }
 
     .pagebutton{
@@ -151,4 +151,16 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.FlexImg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+}
+
+.ProjectsImg{
+  border: 2px #4c566a solid;
+  border-radius: 10px;
 }
