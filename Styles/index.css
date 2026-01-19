@@ -123,6 +123,10 @@ body{
 .LinksGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    max-height: 236px;
+    max-width: 360Spx;
+    height: auto;
+    width: auto;
 }
 
 img { 
