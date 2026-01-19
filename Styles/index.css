@@ -68,10 +68,6 @@ body{
         margin-left: 10px;
     }
 
-    .LinksGrid{
-        max-height: 200px;   
-    }
-
     .LinksBackground{
         max-height: 355px;
         max-width: 364px;
@@ -79,6 +75,8 @@ body{
         width: auto;
     }
 }
+
+
 
 .info{   
     margin-top: 10px;
@@ -136,7 +134,7 @@ body{
 
 .LinksGrid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     max-height: 236px;
     max-width: 360px;
     height: auto;
