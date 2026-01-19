@@ -90,7 +90,6 @@ body{
 
 .LinksBackground{
     margin-top: 10px;
-    display: grid;
     justify-content: center;
     background-color: #3b4252;
     border: 2px #434c5e solid;
@@ -134,7 +133,7 @@ body{
 
 .LinksGrid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     max-height: 236px;
     max-width: 360px;
     height: auto;
