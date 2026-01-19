@@ -131,6 +131,11 @@ body{
     margin-right: 5px;
 }
 
+.linksbutton{
+    height: 60px;
+    width: 180px;
+}
+
 .LinksGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
