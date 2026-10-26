@@ -127,6 +127,7 @@ body{
     color:ghostwhite;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .mybutton{

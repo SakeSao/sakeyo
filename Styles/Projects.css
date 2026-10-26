@@ -81,6 +81,7 @@ body{
     color:ghostwhite;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .mybutton{
@@ -145,6 +146,7 @@ p{
   justify-content:    center;
   margin-left: 5px;
   margin-right: 5px;
+  text-decoration: none;
 }
 
 .ButtonsRow{

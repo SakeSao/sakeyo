@@ -108,6 +108,10 @@ body{
   }
 }
 
+.teambutton{
+  text-decoration: none;
+}
+
 .info{
   margin-top: 10px;
   background-color: #3b4252;
@@ -166,6 +170,7 @@ h1{
     color:ghostwhite;
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
 
 .mybutton{
