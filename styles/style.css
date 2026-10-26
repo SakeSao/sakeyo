@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+/* global */
+
+body {
+  font-family: "Pixelify Sans";
+  display: flex;
+  background-color: #2e3440;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  color: ghostwhite;
+  justify-content: center;
+  margin: 10px;
+}
+
+p {
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.root-container:has(.News) img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.pageslinks {
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.mybutton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.avatarmini {
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+}
+
+/* index */
+
+.info {
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.root-container:has(.interests) .info {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.root-container:has(.News) .avatarmini {
+  max-width: 300px;
+  max-height: 300px;
+  height: auto;
+  width: auto;
+}
+
+.root-container:has(.News) .buttons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.News {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.NewsText {
+  margin: 10px;
+}
+
+.LinksBackground {
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.links {
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: #2e3440;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.linksbutton {
+  height: 60px;
+  width: 180px;
+}
+
+.LinksGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-height: 236px;
+  max-width: 360px;
+  height: auto;
+  width: auto;
+}
+
+.imagemini {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  height: 35px;
+  width: 88px;
+  margin-left: 3px;
+}
+
+.cover {
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  margin: 10px;
+  max-height: 200px;
+  height: auto;
+}
+
+.coverFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.infoLastFmFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lastfmText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title,
+.artist,
+.status {
+  color: ghostwhite;
+}
+
+/* about */
+
+.root-container:has(.interests) a {
+  color: ghostwhite;
+}
+
+.root-container:has(.interests) .avatarmini {
+  margin-top: 10px;
+}
+
+.teamslinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teambutton {
+  text-decoration: none;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.intereststext {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 400px;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* buttons */
+
+.interstsButtons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.Buttons {
+  margin: 5px;
+  height: 31px;
+  width: 88px;
+}
+
+.ButtonsImg {
+  height: 31px;
+  width: 88px;
+}
+
+.Gif {
+  height: 100px;
+}
+
+.Gifs {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.GifsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.GifsColoumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Blinkies {
+  margin: 5px;
+  height: 20px;
+  width: 150px;
+}
+
+.BlinkiesRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ImgaesColoumn {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.BlinkiesColoumn {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+/* projects */
+
+.Projects {
+  margin-top: 10px;
+  background-color: #3b4252;
+  border: 2px #434c5e solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.ProjectsPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: #434c5e;
+  border: 2px #4c566a solid;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.ProjectsPage .buttons {
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: #3b4252;
+  color: ghostwhite;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.ButtonsRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.FlexImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: auto;
+}
+
+.ProjectsImg {
+  border: 2px #4c566a solid;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .root-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pages {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .root-container:has(.interests) .pages,
+  .root-container:has(.ProjectsPage) .pages {
+    margin-right: 10px;
+  }
+
+  .pageslinks {
+    margin: 5px;
+  }
+
+  /* index */
+  .root-container:has(.News) .info {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .root-container:has(.News) .News {
+    margin-left: 10px;
+  }
+
+  .root-container:has(.News) .infotext {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .root-container:has(.News) .mybutton {
+    margin-top: 420px;
+  }
+
+  /* about */
+  .root-container:has(.interests) .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .root-container:has(.interests) .teamslinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .root-container:has(.interests) .mybutton {
+    margin-top: 283px;
+  }
+
+  .root-container:has(.interests) .avatarmini {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+  }
+
+  .root-container:has(.interests) .avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 204px;
+    margin-right: 10px;
+  }
+
+  .root-container:has(.interests) .interests {
+    margin-left: 10px;
+  }
+
+  .root-container:has(.interests) a {
+    margin-left: 5px;
+  }
+
+  /* buttons */
+  .root-container:has(.interstsButtons) .interstsButtons {
+    margin-left: 10px;
+  }
+
+  .root-container:has(.interstsButtons) .mybutton {
+    margin-top: auto;
+  }
+
+  .root-container:has(.interstsButtons) .ButtonsColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+  }
+
+  .root-container:has(.interstsButtons) .BlinkiesColoumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .root-container:has(.interstsButtons) .Gifs {
+    margin-left: 10px;
+  }
+
+  .root-container:has(.interstsButtons) .Blinkies {
+    margin: 5px;
+  }
+
+  .root-container:has(.interstsButtons) .BlinkiesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* projects */
+  .root-container:has(.ProjectsPage) .mybutton {
+    margin-top: 450%;
+  }
+
+  .root-container:has(.ProjectsPage) .Projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .root-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pagebutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .pageslinks {
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+
+  .root-container:has(.interstsButtons) .pageslinks {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .mybutton {
+    margin-top: 10px;
+  }
+
+  /* about */
+  .root-container:has(.interests) .avatarmini {
+    max-width: 200px;
+    max-height: 200px;
+    height: auto;
+    width: auto;
+  }
+
+  .root-container:has(.interests) .avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .root-container:has(.interests) a {
+    margin-left: 10px;
+  }
+
+  /* buttons */
+  .root-container:has(.interstsButtons) .ButtonsColumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+  }
+
+  .root-container:has(.interstsButtons) .BlinkiesColoumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .root-container:has(.interstsButtons) .Blinkies {
+    margin: 5px;
+  }
+
+  .root-container:has(.interstsButtons) .BlinkiesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /* projects */
+  .root-container:has(.ProjectsPage) .Projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* index */
+  .root-container:has(.News) .LinksBackground {
+    max-height: 355px;
+    max-width: 364px;
+    height: auto;
+    width: auto;
+  }
+}
